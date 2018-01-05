@@ -22,7 +22,7 @@
 			"list": []
 		},
 		"game": {
-			"currentL": -1,
+			"current": -1,
 			"list": []
 		},
 		"miniprogram": {
