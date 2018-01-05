@@ -107,7 +107,6 @@ export const fxCopy={
 export const shaderText={
 	name:"Text",
 	V2F:{
-		UV:"vec2",
 		normalW:"vec3",
 	},
 	buffer:{
@@ -125,7 +124,6 @@ export const shaderText={
 		side:THREE.BackSide,
 	},
 	VS:`
-		UV = uv;
 		normalW = mat3(modelMatrix) * normal;
 		vec4 p = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
 		p.xyw+=offsetXYZ;
